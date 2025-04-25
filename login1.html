@@ -1,0 +1,34 @@
+<html>
+<head>
+<script language="javascript">
+function validate()
+{
+u=document.f1.t1.value;
+p=document.f1.p1.value;
+if(u=="username" && p=="password")
+{
+window.open("welcome.html");
+}
+else{
+window.alert("login failed");
+}
+}
+</script>
+</head>
+<body>
+<form name="f1">
+<table border="5" align="center" bgcolor="pink">
+<tr><td>Username </td>
+<td><input type="text" name="t1"></td>
+</tr>
+<tr><td>Password </td>
+<td><input type="text" name="p1"></td>
+<tr>
+<tr><td><input type="button" value="Login"
+onClick="validate()"></td></tr>
+<td><input type="button" value="reset"
+</td></tr>
+</body>
+</html>
+
+
